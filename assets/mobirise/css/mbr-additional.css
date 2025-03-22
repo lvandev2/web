@@ -879,8 +879,14 @@ a {
 .cid-sFGDg6hy8z .copyright {
   color: #bbbbbb;
 }
-.cid-u1fZeJ2T0E .navbar-dropdown {
-  position: relative !important;
+.cid-u1fZeJ2T0E {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
+}
+.cid-u1fZeJ2T0E nav.navbar {
+  position: fixed;
 }
 .cid-u1fZeJ2T0E .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1209,6 +1215,7 @@ a {
 }
 .cid-u1fZeJ2T0E .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-u1fZeJ2T0E a.nav-link {
   display: flex;
@@ -2250,6 +2257,58 @@ a {
 .cid-uBGxnmgBMF .mbr-section-btn {
   color: #cccccc;
 }
+.cid-uGcnWEGH3R {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #bbbbbb;
+}
+.cid-uGcnWEGH3R H1 {
+  color: #ffffff;
+}
+.cid-uGcnWEGH3R .mbr-text,
+.cid-uGcnWEGH3R .mbr-section-btn {
+  color: #cccccc;
+}
+.cid-uGcloQMtkb {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #3e3c3c;
+}
+.cid-uGcloQMtkb H1 {
+  color: #ffffff;
+}
+.cid-uGcloQMtkb .mbr-text,
+.cid-uGcloQMtkb .mbr-section-btn {
+  color: #cccccc;
+}
+.cid-uGclgmqHN6 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #bbbbbb;
+}
+.cid-uGclgmqHN6 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uGclgmqHN6 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-uGclgmqHN6 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-uGclgmqHN6 .row {
+  flex-direction: row-reverse;
+}
+.cid-uGclgmqHN6 img {
+  width: 100%;
+}
 .cid-uF3E0BTzdb {
   padding-top: 0rem;
   padding-bottom: 0rem;
@@ -3008,4 +3067,37 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-uGcl4Z3Ss5 {
+  background-image: url("");
+}
+.cid-uGcl4Z3Ss5 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uGcl4Z3Ss5 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uGcl4Z3Ss5 .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-right: .7rem;
+}
+.cid-uGcl4Z3Ss5 .social-row .soc-item .mbr-iconfont {
+  font-size: 32px;
+  border-radius: 50%;
+  padding: 0.6rem;
+  border: 2px solid #232323;
+  transition: all 0.3s;
+  color: #232323;
+}
+.cid-uGcl4Z3Ss5 .social-row .soc-item .mbr-iconfont:hover {
+  background-color: #232323;
+  color: #ffffff;
 }
